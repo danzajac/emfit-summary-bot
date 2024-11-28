@@ -116,6 +116,6 @@ Here is an example config.yml. It should be pretty self explanatory.
 ## Cron config
 here is my cron
 
-`*/15 6,7,8,9,10,11 * * *  /usr/local/bin/node /home/harper/scripts/emfit-summary-bot/index.js /home/harper/scripts/emfit-summary-bot/cron.log 2>&1`
+`*/15 6,7,8,9,10,11 * * *  /usr/local/bin/node /home/danzajac/scripts/emfit-summary-bot/index.js /home/danzajac/scripts/emfit-summary-bot/cron.log 2>&1`
 
 Theoretically it should run every 15 minutes from 6am-11am.

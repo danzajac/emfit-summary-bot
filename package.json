@@ -6,11 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "harper@nata2.org",
+  "author": "danzajac10@gmail.com",
   "license": "ISC",
   "dependencies": {
     "axios": "^1.4.0",
-    "emfit-qs": "git+https://github.com/harperreed/emfit-qs.git",
+    "emfit-qs": "git+https://github.com/danzajac/emfit-qs.git",
     "jsonfile": "^6.1.0",
     "log4js": "^6.9.1",
     "moment": "^2.29.4",

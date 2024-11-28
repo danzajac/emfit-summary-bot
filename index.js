@@ -262,7 +262,6 @@ ${JSON.stringify(sleepObj)}
   """`;
   const systemPromptUrl = "https://prompt-host.web.app/prompt/aaf55bf6-56e1-43e7-ae75-ba9063a2b76e";
 
-  // https://gist.githubusercontent.com/harperreed/ae0bf646a12b509e4d7a657fdc61dd19/raw/60fe703aced0958b891f9252439c392aa9f48742/system-prompt.txt
   const systemPrompt = await fetchUrl(systemPromptUrl); //config.openai.prompt
   
   const messages = [{ "role": "system", "content": systemPrompt}, { role: "user", content: dataPrompt }]
